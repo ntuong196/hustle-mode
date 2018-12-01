@@ -10,8 +10,11 @@
 		CD5FF71B21B2E96D00830A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5FF71A21B2E96D00830A8A /* AppDelegate.swift */; };
 		CD5FF71D21B2E96D00830A8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5FF71C21B2E96D00830A8A /* ViewController.swift */; };
 		CD5FF72021B2E96D00830A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5FF71E21B2E96D00830A8A /* Main.storyboard */; };
-		CD5FF72221B2E96E00830A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5FF72121B2E96E00830A8A /* Assets.xcassets */; };
 		CD5FF72521B2E96E00830A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5FF72321B2E96E00830A8A /* LaunchScreen.storyboard */; };
+		CD5FF72D21B2F42D00830A8A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CD5FF72C21B2F42D00830A8A /* README.md */; };
+		CD5FF73021B2F66200830A8A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CD5FF72F21B2F66200830A8A /* .gitignore */; };
+		CD5FF73221B2F87B00830A8A /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD5FF73121B2F87B00830A8A /* hustle-on.wav */; };
+		CD5FF73421B2F90500830A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5FF73321B2F90500830A8A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +22,12 @@
 		CD5FF71A21B2E96D00830A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD5FF71C21B2E96D00830A8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD5FF71F21B2E96D00830A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CD5FF72121B2E96E00830A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD5FF72421B2E96E00830A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD5FF72621B2E96E00830A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5FF72C21B2F42D00830A8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CD5FF72F21B2F66200830A8A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CD5FF73121B2F87B00830A8A /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
+		CD5FF73321B2F90500830A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,8 @@
 		CD5FF70E21B2E96C00830A8A = {
 			isa = PBXGroup;
 			children = (
+				CD5FF72F21B2F66200830A8A /* .gitignore */,
+				CD5FF72C21B2F42D00830A8A /* README.md */,
 				CD5FF71921B2E96D00830A8A /* Color */,
 				CD5FF71821B2E96D00830A8A /* Products */,
 			);
@@ -54,10 +62,11 @@
 		CD5FF71921B2E96D00830A8A /* Color */ = {
 			isa = PBXGroup;
 			children = (
+				CD5FF73321B2F90500830A8A /* Assets.xcassets */,
+				CD5FF73121B2F87B00830A8A /* hustle-on.wav */,
 				CD5FF71A21B2E96D00830A8A /* AppDelegate.swift */,
 				CD5FF71C21B2E96D00830A8A /* ViewController.swift */,
 				CD5FF71E21B2E96D00830A8A /* Main.storyboard */,
-				CD5FF72121B2E96E00830A8A /* Assets.xcassets */,
 				CD5FF72321B2E96E00830A8A /* LaunchScreen.storyboard */,
 				CD5FF72621B2E96E00830A8A /* Info.plist */,
 			);
@@ -122,8 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5FF73021B2F66200830A8A /* .gitignore in Resources */,
 				CD5FF72521B2E96E00830A8A /* LaunchScreen.storyboard in Resources */,
-				CD5FF72221B2E96E00830A8A /* Assets.xcassets in Resources */,
+				CD5FF73221B2F87B00830A8A /* hustle-on.wav in Resources */,
+				CD5FF72D21B2F42D00830A8A /* README.md in Resources */,
+				CD5FF73421B2F90500830A8A /* Assets.xcassets in Resources */,
 				CD5FF72021B2E96D00830A8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
